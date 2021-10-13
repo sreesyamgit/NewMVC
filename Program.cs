@@ -15,7 +15,7 @@ namespace Newapplication
         {
             CreateHostBuilder(args).Build().Run();
         }
-
+//Git commit BranchB
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
                 .ConfigureWebHostDefaults(webBuilder =>
